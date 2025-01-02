@@ -42,9 +42,19 @@ The **Node.js Blog API** is a RESTful web service for managing blog posts and co
 
 ## Installation and Setup
 
-### Prerequisites
-- Node.js (v14+)
-- MongoDB (local or cloud instance)
+## Prerequisites and Setup  
 
+### 1. Node.js  
+Ensure you have **Node.js** (v14+ recommended) installed on your system.  
+
+### 2. Database (MongoDB)  
+Set up a free MongoDB cluster using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).  
+
+### 3. Environment Variables  
+Create a `.env` file in the root directory to store your credentials securely.  
+Example `.env` file:  
+```env
+MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/blog
+JWT_SECRET=MySecretBlog
 
 
