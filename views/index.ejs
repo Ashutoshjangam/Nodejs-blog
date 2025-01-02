@@ -1,0 +1,50 @@
+<div class="author">
+    <h1 class="author__heading">Hi, I am Ashu.</h1>
+    <p class="author__body">Artifical Intellignce and Data Science.</p>
+</div>
+
+<img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/SE6H2xwPmjlia3kue/videoblocks-person-looking-through-picture-window-out-at-stormy-sea_sasyaygf7_thumbnail-1080_08.png" alt="person looking out throug window" class="hero-image" width="981" height="528">
+
+<section class="articles__heading">
+    <h2 class="articles__heading">Latest posts</h2>
+    <ul class="article-ul">
+        <% data.forEach(post => { %>
+             <li>
+            <a href="/post/<%= post._id %>">
+                <span><%= post.title %></span>
+                <span class="articles-list_date"><%= post.createdAt.toDateString() %></span>
+            </a>
+        </li>
+        <% }) %>
+    </ul>
+
+    <% if (nextPage !== null) { %>
+        <a href="/?page=<%= nextPage %>" class="pagination">&it; View Older posts</a>
+    <% } %>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
