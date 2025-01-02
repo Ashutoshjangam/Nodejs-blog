@@ -57,4 +57,33 @@ Example `.env` file:
 MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/blog
 JWT_SECRET=MySecretBlog
 
+# Blog API
+
+This is a simple blog API built using Node.js, Express.js, MongoDB, and Mongoose. It allows users to register, log in, create and manage blog posts, and add comments. The API uses JWT (JSON Web Token) for authentication and authorization.
+
+## Requirements
+
+1. **Node.js**: v14+ (Recommended)
+2. **MongoDB**: Used as the database with Mongoose ORM for easier interaction.
+
+### Libraries
+
+- **Express**: Web framework for Node.js.
+- **jsonwebtoken**: Used for JWT authentication.
+- **bcrypt**: For hashing passwords.
+- **dotenv**: To manage environment variables.
+- **Mongoose**: For MongoDB object modeling.
+- **Joi/express-validator**: For input validation.
+- **Swagger** (Optional): For API documentation.
+- **Jest/Mocha** (Optional): For unit tests.
+
+## Setup
+
+### 1. Install Dependencies
+Make sure you have Node.js installed. Then, clone this repository and install the required dependencies.
+
+```bash
+git clone <repo-url>
+cd <repo-folder>
+npm install
 
