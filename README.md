@@ -40,7 +40,7 @@ The **Node.js Blog API** is a RESTful web service for managing blog posts and co
 
 ---
 
-Refrence by @Raddy
+Refrence by https://github.com/RaddyTheBrand
 https://www.youtube.com/watch?v=gR1Zlu4u58g&t=1s
 
 ## Installation and Setup
